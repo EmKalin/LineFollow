@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2020-04-20T08:10:22Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.5.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "RM_finish"
+        },
+        "Owner": "Adam Krzykaa <adamkrzykala97@gmail.com>",
+        "Size": {
+            "X": 139.7,
+            "Y": 186.69
+        }
+    }
+}

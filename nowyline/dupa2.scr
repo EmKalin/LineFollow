@@ -1,0 +1,239 @@
+# NetScript
+# 
+# Exported from RM_finish.sch at 26.04.2020 16:48
+# 
+# EAGLE Version 9.5.2 Copyright (c) 1988-2019 Autodesk, Inc.
+# 
+Change Class 0;
+Signal '3.3V'     'C1'       '1' \
+                  'C2'       '1' \
+                  'Q1'       '1' \
+                  'R10'      '2' \
+                  'R3'       '2' \
+                  'R4'       '2' \
+                  'R5'       '2' \
+                  'R6'       '2' \
+                  'U$5'      'OUT+' \
+                  'U$6'      'D2' \
+                  ;
+Change Class 0;
+Signal '5.0V'     'C10'      '1' \
+                  'C9'       '1' \
+                  'IC1'      '16' \
+                  'IC2'      '16' \
+                  'JP4'      '1' \
+                  'R11'      '1' \
+                  'R12'      '2' \
+                  'R13'      '1' \
+                  'R14'      '2' \
+                  'R15'      '1' \
+                  'R16'      '2' \
+                  'R17'      '1' \
+                  'R18'      '2' \
+                  'R19'      '1' \
+                  'R20'      '2' \
+                  'U$3'      'OUT+' \
+                  ;
+Change Class 0;
+Signal 'C5.0V'    'ARDUINO_NANO1' '12' \
+                  'R9'       '2' \
+                  ;
+Change Class 0;
+Signal 'CH_PD'    'R3'       '1' \
+                  'U$6'      'B2' \
+                  ;
+Change Class 0;
+Signal 'ECHO'     'ARDUINO_NANO1' '20' \
+                  'JP4'      '3' \
+                  ;
+Change Class 0;
+Signal 'GND'      'ARDUINO_NANO1' '14' \
+                  'ARDUINO_NANO1' '19' \
+                  'C1'       '2' \
+                  'C10'      '2' \
+                  'C2'       '2' \
+                  'C7'       '-' \
+                  'C8'       '2' \
+                  'C9'       '2' \
+                  'IC1'      '12' \
+                  'IC1'      '13' \
+                  'IC1'      '4' \
+                  'IC1'      '5' \
+                  'IC2'      '12' \
+                  'IC2'      '13' \
+                  'IC2'      '4' \
+                  'IC2'      '5' \
+                  'JP1'      '1' \
+                  'JP4'      '4' \
+                  'R1'       '1' \
+                  'R7'       '1' \
+                  'U$10'     'E' \
+                  'U$10'     'K' \
+                  'U$11'     'E' \
+                  'U$11'     'K' \
+                  'U$12'     'IN-' \
+                  'U$12'     'OUT-' \
+                  'U$3'      'IN-' \
+                  'U$3'      'OUT-' \
+                  'U$5'      'IN-' \
+                  'U$5'      'OUT-' \
+                  'U$6'      'A1' \
+                  'U$7'      'E' \
+                  'U$7'      'K' \
+                  'U$8'      'E' \
+                  'U$8'      'K' \
+                  'U$9'      'E' \
+                  'U$9'      'K' \
+                  'X1'       '1' \
+                  ;
+Change Class 0;
+Signal 'GPIO0'    'JP1'      '2' \
+                  'R6'       '1' \
+                  'U$6'      'C1' \
+                  ;
+Change Class 0;
+Signal 'GPIO2'    'R5'       '1' \
+                  'U$6'      'B1' \
+                  ;
+Change Class 0;
+Signal 'IN1L'     'ARDUINO_NANO1' '25' \
+                  'IC1'      '15' \
+                  'IC1'      '2' \
+                  ;
+Change Class 0;
+Signal 'IN1P'     'ARDUINO_NANO1' '27' \
+                  'IC2'      '15' \
+                  'IC2'      '2' \
+                  ;
+Change Class 0;
+Signal 'IN2L'     'ARDUINO_NANO1' '26' \
+                  'IC1'      '10' \
+                  'IC1'      '7' \
+                  ;
+Change Class 0;
+Signal 'IN2P'     'ARDUINO_NANO1' '28' \
+                  'IC2'      '10' \
+                  'IC2'      '7' \
+                  ;
+Change Class 0;
+Signal 'MOTL1'    'IC1'      '14' \
+                  'IC1'      '3' \
+                  'JP2'      '2' \
+                  ;
+Change Class 0;
+Signal 'MOTL2'    'IC1'      '11' \
+                  'IC1'      '6' \
+                  'JP2'      '1' \
+                  ;
+Change Class 0;
+Signal 'MOTP1'    'IC2'      '14' \
+                  'IC2'      '3' \
+                  'JP3'      '2' \
+                  ;
+Change Class 0;
+Signal 'MOTP2'    'IC2'      '11' \
+                  'IC2'      '6' \
+                  'JP3'      '1' \
+                  ;
+Change Class 0;
+Signal 'N$2'      'R11'      '2' \
+                  'U$7'      'A' \
+                  ;
+Change Class 0;
+Signal 'N$3'      'R13'      '2' \
+                  'U$8'      'A' \
+                  ;
+Change Class 0;
+Signal 'N$4'      'R15'      '2' \
+                  'U$9'      'A' \
+                  ;
+Change Class 0;
+Signal 'N$5'      'R17'      '2' \
+                  'U$10'     'A' \
+                  ;
+Change Class 0;
+Signal 'N$6'      'R19'      '2' \
+                  'U$11'     'A' \
+                  ;
+Change Class 0;
+Signal 'PWML'     'ARDUINO_NANO1' '23' \
+                  'IC1'      '1' \
+                  'IC1'      '9' \
+                  ;
+Change Class 0;
+Signal 'PWMP'     'ARDUINO_NANO1' '24' \
+                  'IC2'      '1' \
+                  'IC2'      '9' \
+                  ;
+Change Class 0;
+Signal 'RST'      'R4'       '1' \
+                  'U$6'      'C2' \
+                  ;
+Change Class 0;
+Signal 'RX'       'ARDUINO_NANO1' '17' \
+                  'Q1'       '3' \
+                  'R9'       '1' \
+                  ;
+Change Class 0;
+Signal 'SUPPLY_V' 'ARDUINO_NANO1' '11' \
+                  'R1'       '2' \
+                  'R2'       '1' \
+                  ;
+Change Class 0;
+Signal 'TRIG'     'ARDUINO_NANO1' '21' \
+                  'JP4'      '2' \
+                  ;
+Change Class 0;
+Signal 'TX'       'ARDUINO_NANO1' '16' \
+                  'R8'       '2' \
+                  ;
+Change Class 0;
+Signal 'UC1'      'ARDUINO_NANO1' '4' \
+                  'R12'      '1' \
+                  'U$7'      'C' \
+                  ;
+Change Class 0;
+Signal 'UC2'      'ARDUINO_NANO1' '5' \
+                  'R14'      '1' \
+                  'U$8'      'C' \
+                  ;
+Change Class 0;
+Signal 'UC3'      'ARDUINO_NANO1' '6' \
+                  'R16'      '1' \
+                  'U$9'      'C' \
+                  ;
+Change Class 0;
+Signal 'UC4'      'ARDUINO_NANO1' '7' \
+                  'R18'      '1' \
+                  'U$10'     'C' \
+                  ;
+Change Class 0;
+Signal 'UC5'      'ARDUINO_NANO1' '10' \
+                  'R20'      '1' \
+                  'U$11'     'C' \
+                  ;
+Change Class 0;
+Signal 'URXD'     'R7'       '2' \
+                  'R8'       '1' \
+                  'U$6'      'D1' \
+                  ;
+Change Class 0;
+Signal 'UTXD'     'Q1'       '2' \
+                  'R10'      '1' \
+                  'U$6'      'A2' \
+                  ;
+Change Class 0;
+Signal 'V+'       'ARDUINO_NANO1' '15' \
+                  'R2'       '2' \
+                  'U$12'     'IN+' \
+                  'U$3'      'IN+' \
+                  'U$5'      'IN+' \
+                  'X1'       '2' \
+                  ;
+Change Class 0;
+Signal 'VS'       'C7'       '+' \
+                  'C8'       '1' \
+                  'IC1'      '8' \
+                  'IC2'      '8' \
+                  'U$12'     'OUT+' \
+                  ;
